@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class DataLoad {
 
-    public static void addAllFromFile(String filename) throws FileNotFoundException, PlantExceptions {
+    public static void addAllFromFile(String filename) throws FileNotFoundException, CountryExceptions {
         Scanner scanner = new Scanner(new BufferedReader(new FileReader(filename)));
             while (scanner.hasNextLine()) {
                 String record = scanner.nextLine();

@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        final String FILENAME = "vat-eu.csv";
         double vatPerc;
 
         System.out.println("DPH/VAT v EU\nChces filtrovat podle 20% DPH/VAT (Y/N)");
